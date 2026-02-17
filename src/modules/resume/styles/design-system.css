@@ -247,6 +247,21 @@ input {
   border-radius: 4px;
   font-size: 0.95rem;
   width: 100%;
+  color: #111111 !important;
+  background-color: #FFFFFF !important;
+}
+
+input,
+textarea,
+select {
+  color: #111111 !important;
+  background-color: #FFFFFF !important;
+  border-color: #E0E0E0;
+}
+
+::placeholder {
+  color: #888888 !important;
+  opacity: 1 !important;
 }
 
 .input-field:focus {
