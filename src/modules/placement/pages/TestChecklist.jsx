@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 const ChecklistItem = ({ id, label, hint, isChecked, onToggle }) => (
     <div
         className={`flex items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${isChecked
-                ? 'bg-green-50 border-green-200 shadow-sm'
-                : 'bg-white border-gray-100 hover:border-indigo-200 hover:shadow-md'
+            ? 'bg-green-50 border-green-200 shadow-sm'
+            : 'bg-white border-gray-100 hover:border-indigo-200 hover:shadow-md'
             }`}
         onClick={() => onToggle(id)}
     >
@@ -134,10 +134,10 @@ const TestChecklist = () => {
                     </button>
 
                     <button
-                        onClick={() => navigate('/prp/08-ship')}
+                        onClick={() => navigate('/placement/prp/08-ship')}
                         className={`flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white shadow-xl transition-all transform hover:-translate-y-1 ${isComplete
-                                ? 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:shadow-indigo-300'
-                                : 'bg-gray-300 cursor-not-allowed opacity-70'
+                            ? 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:shadow-indigo-300'
+                            : 'bg-gray-300 cursor-not-allowed opacity-70'
                             }`}
                         disabled={!isComplete && false} // Let them click to see lock screen
                     >
@@ -148,7 +148,7 @@ const TestChecklist = () => {
 
                 <div className="text-center">
                     <button
-                        onClick={() => navigate('/dashboard')}
+                        onClick={() => navigate('/placement/dashboard')}
                         className="text-gray-400 hover:text-gray-600 text-sm font-medium flex items-center justify-center gap-1 mx-auto"
                     >
                         <ArrowLeft className="w-3 h-3" /> Back to Dashboard

@@ -201,7 +201,7 @@ ${questions.map((q, i) => `${i + 1}. ${q}`).join('\n')}
             <div className="text-center py-12">
                 <p className="text-gray-600 mb-4">No analysis data found.</p>
                 <button
-                    onClick={() => navigate('/dashboard/assessments')}
+                    onClick={() => navigate('/placement/dashboard/assessments')}
                     className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-indigo-700"
                 >
                     Go to Assessments
@@ -392,7 +392,7 @@ ${questions.map((q, i) => `${i + 1}. ${q}`).join('\n')}
                         Download TXT
                     </button>
                     <button
-                        onClick={() => navigate('/dashboard/practice')}
+                        onClick={() => navigate('/placement/dashboard/practice')}
                         className="flex items-center gap-2 text-gray-600 hover:text-gray-900 px-3"
                     >
                         <ArrowLeft className="w-5 h-5" />

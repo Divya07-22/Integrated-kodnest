@@ -22,7 +22,7 @@ const ShipLock = () => {
     const handleReset = () => {
         if (window.confirm('Reset checklist and re-lock shipping?')) {
             localStorage.removeItem('prp_test_checklist');
-            navigate('/prp/07-test');
+            navigate('/placement/prp/07-test');
         }
     };
 
@@ -57,7 +57,7 @@ const ShipLock = () => {
                     </div>
 
                     <button
-                        onClick={() => navigate('/prp/07-test')}
+                        onClick={() => navigate('/placement/prp/07-test')}
                         className="w-full bg-gray-900 text-white font-bold py-4 px-6 rounded-xl hover:bg-gray-800 hover:shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
                     >
                         <ArrowLeft className="w-5 h-5" />
@@ -108,7 +108,7 @@ const ShipLock = () => {
                 <div className="flex flex-col gap-4">
                     <button
                         className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
-                        onClick={() => navigate('/prp/proof')}
+                        onClick={() => navigate('/placement/prp/proof')}
                     >
                         Proceed to Final Submission
                     </button>

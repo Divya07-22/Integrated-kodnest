@@ -94,7 +94,7 @@ const Dashboard = () => {
                         </div>
 
                         <button
-                            onClick={() => navigate('/dashboard/practice')}
+                            onClick={() => navigate('/placement/dashboard/practice')}
                             className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2">
                             Continue Session <ArrowRight className="w-4 h-4" />
                         </button>

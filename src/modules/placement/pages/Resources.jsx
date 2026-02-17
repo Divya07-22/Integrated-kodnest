@@ -12,7 +12,7 @@ const Resources = () => {
     }, []);
 
     const handleViewReport = (entry) => {
-        navigate('/dashboard/practice', { state: { analysis: entry } });
+        navigate('/placement/dashboard/practice', { state: { analysis: entry } });
     };
 
     const formatDate = (timestamp) => {
@@ -69,7 +69,7 @@ const Resources = () => {
                     <h3 className="text-lg font-bold text-gray-900 mb-2">No History Yet</h3>
                     <p className="text-gray-500 mb-6">Analyze a Job Description to get started with your preparation.</p>
                     <button
-                        onClick={() => navigate('/dashboard/practice')}
+                        onClick={() => navigate('/placement/dashboard/practice')}
                         className="bg-indigo-600 text-white px-6 py-2.5 rounded-lg hover:bg-indigo-700 transition-colors font-medium"
                     >
                         Create New Analysis

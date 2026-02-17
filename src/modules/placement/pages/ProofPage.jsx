@@ -22,7 +22,7 @@ const ProofPage = () => {
         const checkedCount = checklistSaved ? JSON.parse(checklistSaved).length : 0;
 
         if (checkedCount < 10) {
-            navigate('/prp/08-ship'); // Enforce lock
+            navigate('/placement/prp/08-ship'); // Enforce lock
         } else {
             setChecklistComplete(true);
         }
@@ -137,8 +137,8 @@ Core Capabilities:
                                     value={links[field.id]}
                                     onChange={e => handleLinkChange(field.id, e.target.value)}
                                     className={`w-full p-3 border rounded-xl outline-none transition-all font-mono text-sm ${isValidUrl(links[field.id])
-                                            ? 'border-green-500 bg-green-50 text-green-900 focus:ring-green-200'
-                                            : 'border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100'
+                                        ? 'border-green-500 bg-green-50 text-green-900 focus:ring-green-200'
+                                        : 'border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100'
                                         }`}
                                     placeholder="https://..."
                                 />
@@ -156,8 +156,8 @@ Core Capabilities:
                             onClick={copySubmission}
                             disabled={!isShipped}
                             className={`w-full py-4 rounded-xl font-bold text-white flex justify-center items-center gap-2 transition-all shadow-lg ${isShipped
-                                    ? 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:shadow-indigo-500/30 hover:-translate-y-1'
-                                    : 'bg-gray-300 cursor-not-allowed text-gray-500 shadow-none'
+                                ? 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:shadow-indigo-500/30 hover:-translate-y-1'
+                                : 'bg-gray-300 cursor-not-allowed text-gray-500 shadow-none'
                                 }`}
                         >
                             <Copy className="w-5 h-5" />
