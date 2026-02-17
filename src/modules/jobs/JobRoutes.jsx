@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Saved from './pages/Saved';
