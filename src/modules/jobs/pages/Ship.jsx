@@ -23,7 +23,7 @@ export default function Ship() {
                             <br />
                             Complete all 10 items to unlock shipping.
                         </p>
-                        <Link to="/jt/07-test" className="btn btn--primary">
+                        <Link to="/jobs/07-test" className="btn btn--primary">
                             Go to Verification Checklist ({progress.passed}/{progress.total})
                         </Link>
                     </div>

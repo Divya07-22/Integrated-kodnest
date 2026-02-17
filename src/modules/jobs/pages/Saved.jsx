@@ -66,7 +66,7 @@ export default function Saved() {
                         Jobs you save from the dashboard will appear here.
                     </p>
                     <div className="empty-state__action">
-                        <Link to="/dashboard">
+                        <Link to=".">
                             <Button variant="primary">Browse Jobs</Button>
                         </Link>
                     </div>

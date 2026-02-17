@@ -104,7 +104,7 @@ export default function TestChecklist() {
                 </button>
 
                 <Link
-                    to="/jt/08-ship"
+                    to="/jobs/08-ship"
                     className={`btn btn--primary ${!isComplete ? 'btn--disabled' : ''}`}
                     onClick={(e) => !isComplete && e.preventDefault()}
                 >

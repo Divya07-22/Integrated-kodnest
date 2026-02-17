@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import jobsData from '../data/jobsData';
 import JobCard from '../components/JobCard';
 import JobModal from '../components/JobModal';
@@ -163,7 +164,7 @@ export default function Dashboard() {
                     justifyContent: 'space-between'
                 }}>
                     <span><strong>Set your preferences to activate intelligent matching.</strong></span>
-                    <a href="/settings" style={{ color: '#0d47a1', fontWeight: 'bold', textDecoration: 'none' }}>Go to Settings →</a>
+                    <Link to="settings" style={{ color: '#0d47a1', fontWeight: 'bold', textDecoration: 'none' }}>Go to Settings →</Link>
                 </div>
             )}
 

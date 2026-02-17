@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { isReadyToShip } from '../utils/testManager';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
@@ -179,9 +180,9 @@ Core Features:
                         <span>{testsPassed ? '✅' : '❌'}</span>
                         All 10 Tests Passed
                         {!testsPassed && (
-                            <a href="/jt/07-test" style={{ marginLeft: '10px', textDecoration: 'underline', fontWeight: 'bold' }}>
+                            <Link to="/jobs/07-test" style={{ marginLeft: '10px', textDecoration: 'underline', fontWeight: 'bold' }}>
                                 (Go to Checklist)
-                            </a>
+                            </Link>
                         )}
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: isValidUrl(artifacts.lovableLink) ? 'green' : 'red' }}>

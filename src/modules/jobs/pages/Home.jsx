@@ -8,7 +8,7 @@ export default function Home() {
                 <p className="landing-hero__subtitle">
                     Precision-matched job discovery delivered daily at 9AM.
                 </p>
-                <Link to="/settings" className="btn btn--primary btn--large">
+                <Link to="settings" className="btn btn--primary btn--large">
                     Start Tracking
                 </Link>
             </div>
