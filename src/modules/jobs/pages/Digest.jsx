@@ -103,7 +103,7 @@ export default function Digest() {
                 <div className="empty-state">
                     <h3 className="empty-state__title">Personalize your digest.</h3>
                     <p className="empty-state__message">Set your preferences to generate a personalized 9AM digest.</p>
-                    <Button variant="primary" onClick={() => window.location.href = '/settings'}>Go to Settings</Button>
+                    <Button variant="primary" onClick={() => window.location.href = 'settings'}>Go to Settings</Button>
                 </div>
             </div>
         );

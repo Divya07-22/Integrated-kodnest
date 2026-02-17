@@ -24,6 +24,8 @@
   --color-warning: #9A6B3E;
   --color-border: #D4D2CC;
   --color-surface: #FFFFFF;
+  --color-primary: #0D47A1;
+  --color-danger: #D32F2F;
 
   /* Typography */
   --font-serif: 'Playfair Display', Georgia, serif;
