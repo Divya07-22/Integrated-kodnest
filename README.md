@@ -11,7 +11,7 @@ A comprehensive, AI-powered ecosystem designed to streamline the entire career p
 
 ## 🌐 Live Deployment
 
-**Production URL**: [https://placement-kodnest.vercel.app](https://placement-kodnest.vercel.app)  
+**Production URL**: [https://integrated-kodnest.vercel.app/](https://integrated-kodnest.vercel.app/)  
 **Repository**: [GitHub Link](https://github.com/Divya07-22/Integrated-kodnest)
 
 ---
